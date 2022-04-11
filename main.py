@@ -6,8 +6,8 @@ import numpy as np
 if __name__ == '__main__':
     # Arguments
     parser = argparse.ArgumentParser(description='Ishihara edge detection')
-    parser.add_argument('--input', default='testcases/Ishihara_1.png')
-    parser.add_argument('--output', default='outputs/Ishihara_1.png')
+    parser.add_argument('--input', default='testcases/Ishihara_23.png')
+    parser.add_argument('--output', default='outputs/Ishihara_23.png')
     args = parser.parse_args()
 
     # Read
